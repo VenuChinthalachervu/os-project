@@ -1,4 +1,6 @@
-#include<stdio.h> #include<conio.h> int main()
+#include<stdio.h> 
+#include<conio.h> 
+int main()
 {
 
 int ts,pid[10],need[10],wt[10],tat[10],at[10],i,j,n,n1; int bt[10],flag[10],ttat=0,twt=0;
@@ -76,7 +78,8 @@ if((i!=j)&&(flag[i]==1)&&(need[j]!=0))
 wt[j]+=need[i];
 }
 
-need[i]=0; n--;
+need[i]=0; 
+ n--;
 flag[i]=0;
 
 }
